@@ -1,0 +1,18 @@
+div.react-datetime-picker div.react-datetime-picker__wrapper {
+  border: 1px solid #e8ebf1;
+  border-radius: 2px;
+  height: calc(1.5em + 0.75rem + 2px);
+}
+
+div.react-datetime-picker.invalid div.react-datetime-picker__wrapper {
+  border: 1px solid #dc3545;
+}
+
+div.react-datetime-picker div.react-datetime-picker__wrapper div.react-datetime-picker__inputGroup {
+  padding-left: 1rem;
+}
+
+div.react-datetime-picker__calendar.react-datetime-picker__calendar--open,
+div.react-datetime-picker__clock.react-datetime-picker__clock--open {
+  z-index: 10;
+}

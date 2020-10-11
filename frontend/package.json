@@ -1,0 +1,46 @@
+{
+  "name": "mongoose-admin-panel-frontend",
+  "version": "1.0.0",
+  "description": "Package for generating an admin panel frontend for Mongoose.",
+  "scripts": {
+    "build": "node build.js; babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuantumGlitch/mongoose-admin-panel.git"
+  },
+  "author": "QuantumGlitch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QuantumGlitch/mongoose-admin-panel/issues"
+  },
+  "homepage": "https://github.com/QuantumGlitch/mongoose-admin-panel#readme",
+  "engines": {
+    "node": ">=10"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "dotenv": "^8.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "deep-clone": "^3.0.3",
+    "event-emitter": "^0.3.5",
+    "react-cookies": "^0.1.1",
+    "react-datetime-picker": "^3.0.4",
+    "react-dropzone": "^11.2.0",
+    "react-fast-compare": "^3.2.0",
+    "react-feather": "^2.0.8",
+    "react-loader-spinner": "^3.1.14",
+    "react-select": "^3.1.0",
+    "reactstrap": "^8.6.0"
+  }
+}

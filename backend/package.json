@@ -1,0 +1,46 @@
+{
+  "name": "mongoose-admin-panel-backend",
+  "version": "1.0.0",
+  "description": "Package for generating an admin panel backend for Mongoose.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuantumGlitch/mongoose-admin-panel.git"
+  },
+  "keywords": [
+    "mongoose",
+    "admin",
+    "panel",
+    "interface",
+    "management",
+    "user",
+    "users",
+    "permission",
+    "permissions",
+    "privilege",
+    "customizable"
+  ],
+  "author": "QuantumGlitch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QuantumGlitch/mongoose-admin-panel/issues"
+  },
+  "homepage": "https://github.com/QuantumGlitch/mongoose-admin-panel#readme",
+  "peerDependencies": {
+    "mongoose": "^5.10.8"
+  },
+  "dependencies": {
+    "cacheman": "^2.2.1",
+    "crypto": "^1.0.1",
+    "date-and-time": "^0.14.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "fast-deep-equal": "^3.1.3",
+    "mongoose-references-integrity-checker": "^1.0.8",
+    "mongoose-soft-deleting": "^1.0.1",
+    "mongoose-sub-references-integrity-checker": "^1.0.9",
+    "mongoose-sub-references-populate": "^1.0.2"
+  }
+}

@@ -1,0 +1,22 @@
+.grid-component > tbody > tr > td,
+.grid-component > thead > tr > th {
+  white-space: nowrap;
+}
+.grid-component > tbody > tr {
+  cursor: pointer;
+}
+
+.grid-component > tbody > tr.warning {
+  background: var(--warning);
+  color: black;
+}
+
+.grid-component > tbody > tr.current {
+  background: var(--primary);
+  color: white;
+}
+
+.grid-component > tbody > tr:not(.current):hover {
+  background: var(--secondary);
+  color: white;
+}
