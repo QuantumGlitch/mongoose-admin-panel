@@ -23,24 +23,15 @@ If you are searching for a simple solution to generate an admin panel, just down
 
 # How it works
 
-In this project you will find two packages: backend and frontend.
-One gives support for making the backend of the control panel while the second gives support for making the frontend of the control panel.
-
-**At the moment** the backend has an adapter only for using it with **express** while the frontend includes only a set of **React** compatible components.
+In this project you will find two packages: backend and frontend. One gives support for making the backend of the control panel while the second gives support for making the frontend of the control panel. **At the moment** the backend has an adapter only for using it with **express** while the frontend includes only a set of **React** compatible components.
 
 # Concepts
 
-### Legend
-
 **MAP** = Mongoose Admin Panel
 
-## Core
+## Core
 
-The core of the project is based on the backend class **Component** (aka FormComponent).
-In order to make the user interact with the database, **MAP** provides a **Form** class, a derived class of **Component**: this is managed on the frontend through its specific React component (ComponentRenderer) and on the backend through its specific representation class.
-
-Every time an action occurs on the frontend (or a state transformation that needs a computation by the backend) the Form's model is parsed to JSON and sent to the backend.
-The backend processes the model, executing his life cycle, and then serialize it and send it back to the frontend.
+The core of the project is based on the backend class **Component** (aka FormComponent). In order to make the user interact with the database, **MAP** provides a **Form** class, a derived class of **Component**: this is managed on the frontend through its specific React component (ComponentRenderer) and on the backend through its specific representation class. Every time an action occurs on the frontend (or a state transformation that needs a computation by the backend) the Form's model is parsed to JSON and sent to the backend. The backend processes the model, executing his life cycle, and then serialize it and send it back to the frontend.
 
 ### Component
 
