@@ -1,6 +1,6 @@
 {
   "name": "mongoose-admin-panel-backend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package for generating an admin panel backend for Mongoose.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
