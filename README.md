@@ -40,6 +40,7 @@ It has its own **life cycle** and its own children components.
 So every Component could be a tree of components.
 
 #### Life cycle
+
 The life cycle includes 4 stages:
 
 1. Parse ( Convert the JSON which represents the Component to the needed internals )
