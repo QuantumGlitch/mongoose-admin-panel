@@ -35,11 +35,9 @@ The core of the project is based on the backend class **Component** (aka FormCom
 
 ### Component
 
-A **Component** is the base class of **MAP**.
-It has its own **life cycle** and its own children components.
-So every Component could be a tree of components.
+A **Component** is the base class of **MAP**. It has its own **life cycle** and its own children components. So every Component could be a tree of components.
 
-#### Life cycle
+#### Life cycle
 
 The life cycle includes 4 stages:
 
