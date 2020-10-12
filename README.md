@@ -2,12 +2,10 @@
 
 Package for generating an admin panel for Mongoose.
 It comes out of the box with a React front-end and an Express back-end. Fully customizable.
-
 ![Mongoose Admin Panel Logo](./logo.png)
-
 It supports **relationships** and ensure theirs integrity.
 
-# Screenshots
+# Screenshots
 
 Few examples from [Mongoose Admin Panel - Example](https://github.com/quantumglitch/mongoose-admin-panel-example)
 
@@ -38,7 +36,7 @@ One gives support for making the backend of the control panel while the second g
 
 ## Core
 
-The core of the project is based on the class **Component** (aka FormComponent).
+The core of the project is based on the backend class **Component** (aka FormComponent).
 In order to make the user interact with the database, **MAP** provides a **Form** class, a derived class of **Component**: this is managed on the frontend through its specific React component (ComponentRenderer) and on the backend through its specific representation class.
 
 Every time an action occurs on the frontend (or a state transformation that needs a computation by the backend) the Form's model is parsed to JSON and sent to the backend.
