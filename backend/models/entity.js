@@ -41,7 +41,7 @@ Entity.registeringPromises = registeringPromises;
 /**
  * Associate mongoose model with entity and create/update the entity
  */
-Entity.register = function ({ id, path, description, populationOptions = [] }, modelClass) {
+Entity.register = function ({ id, path, description, populationOptions }, modelClass) {
   registeringPromises.push(
     new Promise(async (resolve) => {
       let entity = await Entity.findById(id);

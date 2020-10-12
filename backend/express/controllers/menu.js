@@ -28,7 +28,7 @@ module.exports = [
       assertUserAuthenticated,
       async (req, res) => {
         const permissions = await req.auth.getAllPermissions();
-        const menus = await Menu.find();
+        const menus = await Menu.find().sort({ _id: 1 });
 
         res.json({
           ok: true,

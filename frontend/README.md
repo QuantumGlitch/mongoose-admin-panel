@@ -1,30 +1,13 @@
-# mongoose-admin-panel-frontend
+# Mongoose Admin Panel
 
-> Package for generating an admin panel frontend for Mongoose.
+Package for generating an admin panel for Mongoose.
+It comes out of the box with a React front-end and an Express back-end. Fully customizable.
+It supports **user permissions**, **relationships** and ensure theirs integrity.
 
-[![NPM](https://img.shields.io/npm/v/mongoose-admin-panel-frontend.svg)](https://www.npmjs.com/package/mongoose-admin-panel-frontend) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+# Screenshots
 
-## Install
+Few examples from [Mongoose Admin Panel - Example](https://github.com/quantumglitch/mongoose-admin-panel-example) ![Screenshot 0](./screenshots/0.png) ![Screenshot 1](./screenshots/1.png) ![Screenshot 2](./screenshots/2.png) ![Screenshot 3](./screenshots/3.png) ![Screenshot 4](./screenshots/4.png) ![Screenshot 5](./screenshots/5.png) ![Screenshot 6](./screenshots/6.png)
 
-```bash
-npm install --save mongoose-admin-panel-frontend
-```
+# Short Setup
 
-## Usage
-
-```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'mongoose-admin-panel-frontend'
-import 'mongoose-admin-panel-frontend/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
-```
-
-## License
-
-MIT © [QuantumGlitch](https://github.com/QuantumGlitch)
+If you are searching for a simple solution to generate an admin panel, just download the example project, load your mongoose models and the job's done. Follow the instructions on [Mongoose Admin Panel - Example](https://github.com/quantumglitch/mongoose-admin-panel-example).

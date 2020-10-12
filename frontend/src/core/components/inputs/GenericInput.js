@@ -10,7 +10,7 @@ import DefaultInput from './DefaultInput';
 export const registeredInputs = {
   Boolean: require('./BooleanInput').default,
   Decimal: require('./DecimalInput').default,
-  Number: require('./NumberInput').default,
+  Integer: require('./IntegerInput').default,
   Date: require('./DateInput').default,
 };
 

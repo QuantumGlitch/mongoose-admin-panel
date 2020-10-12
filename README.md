@@ -1,9 +1,10 @@
+![Mongoose Admin Panel Logo](./logo.png)
+
 # Mongoose Admin Panel
 
 Package for generating an admin panel for Mongoose.
 It comes out of the box with a React front-end and an Express back-end. Fully customizable.
-![Mongoose Admin Panel Logo](./logo.png)
-It supports **relationships** and ensure theirs integrity.
+It supports **user permissions**, **relationships** and ensure theirs integrity.
 
 # Screenshots
 
@@ -52,12 +53,14 @@ The basic unit is the **Entity**. To use the database, a mongoose model is neede
 
 # Backend
 
+⚠️ Work in progress.
 For more info about Core and Database:
 
 [Detailed guide here](https://github.com/QuantumGlitch/mongoose-admin-panel/blob/master/backend/README.md)
 
 # Frontend
 
+⚠️ Work in progress.
 [Detailed guide here](https://github.com/QuantumGlitch/mongoose-admin-panel/blob/master/frontend/README.md)
 
 # Support
