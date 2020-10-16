@@ -1,6 +1,6 @@
 {
   "name": "mongoose-admin-panel-frontend",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Package for generating an admin panel frontend for Mongoose.",
   "scripts": {
     "build": "node build.js; babel src -d lib"

@@ -77,7 +77,7 @@ function getComponentByConfiguration(configuration, globalConfiguration, rootOpt
   }), children);
 }
 
-export default function ComponentRenderer({
+export function ComponentRenderer({
   parameters,
   configuration,
   rootOptions,
@@ -168,4 +168,7 @@ export default function ComponentRenderer({
   return getComponentByConfiguration(stateConfig, stateConfig, rootOptions, bus
   /*.current*/
   );
+}
+export default function ComponentRendererSafe(props) {
+  return props.configuration ? ComponentRenderer(props) : null;
 }

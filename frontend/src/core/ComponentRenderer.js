@@ -90,7 +90,7 @@ function getComponentByConfiguration(configuration, globalConfiguration, rootOpt
   );
 }
 
-export default function ComponentRenderer({ parameters, configuration, rootOptions, refresh }) {
+export function ComponentRenderer({ parameters, configuration, rootOptions, refresh }) {
   // This object will be used for communication among components
   const bus = {
     nextHash: null,
@@ -182,4 +182,8 @@ export default function ComponentRenderer({ parameters, configuration, rootOptio
   }, [components[configuration.id].nextHash]);
 
   return getComponentByConfiguration(stateConfig, stateConfig, rootOptions, bus /*.current*/);
+}
+
+export default function ComponentRendererSafe(props) {
+  return props.configuration ? ComponentRenderer(props) : null;
 }
